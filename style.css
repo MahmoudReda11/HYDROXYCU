@@ -58,7 +58,7 @@
     background: linear-gradient(to left ,#7A1216,#E51E27);
     color: #fff;
     border-radius: 5px;
-    padding: 5px 5px;
+    padding: 8px 5px 5px;
     font-weight: bold;
     transition: 0.4s ease-in-out;
   }
