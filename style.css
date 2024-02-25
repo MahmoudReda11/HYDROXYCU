@@ -95,7 +95,7 @@
     background: url(img/homesec.jpg);
     height: 90vh;
     width: 100%;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     position: relative;
   }
@@ -110,7 +110,7 @@
   }
 
   .home .container p{
-    font-size: 3.8vw;
+    font-size: 3.4vw;
     margin-bottom: 10px;
   }
   .home .container ul{
