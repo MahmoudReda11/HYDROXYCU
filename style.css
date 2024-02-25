@@ -118,7 +118,7 @@
   }
   .home .container ul li{
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     font-size: 7vw;
   }
 
@@ -192,7 +192,7 @@
     background-size: cover;
     width: 100%;
     overflow: hidden;
-    padding: 50px 10px 30px;
+    padding: 50px 10px 22px;
   }
   .results .top_sec{
     background: #fff;
@@ -271,7 +271,7 @@
     background-size: cover;
   }
   .clint h3{
-    font-size: 8vw;
+    font-size: 10vw;
     margin-bottom: 20px;
   }
   .clint img{
@@ -308,8 +308,8 @@
     background-size: cover;
   }
   .form_sec .price{
-    padding: 0 0px 30px;
-    margin-bottom: 30px;
+    padding: 0 0px 15px;
+    margin-bottom: 15px;
     position: relative;
   }
   .form_sec .price::after{
@@ -359,12 +359,12 @@
 
   .form_sec h5{
     color: #fff;
-    font-size: 6vw;
+    font-size: 6.5vw;
     font-family: TAJAWAL-EXTRALIGHT;
   }
   .form_sec h6{
     color: #fff;
-    font-size: 7vw;
+    font-size: 7.5vw;
     margin-bottom: 12px;
     font-family: TAJAWAL-EXTRALIGHT;
   }
@@ -446,4 +446,56 @@
     color: #fff;
     font-size: 2.6vw;
     font-weight: normal;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* THanks page */
+
+  body.thanks{
+    width: 100%;
+    height: 100vh;
+    background: url(img/formBg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+    color: #Fff;
+  }
+  .btnthanks{
+    padding: 10px 20px;
+   
+    transition: 0.3s ease;
+  }
+  .btnthanks:hover{
+    background: #fff;
+    color: #7A1216;
+  }
+  body.thanks h3{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 5vw;
+  }
+  body.thanks h4{
+    font-size: 3.5vw;
+  }
+  .thanks img{
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  body.thanks h4{
+    margin-bottom: 30px;
   }
