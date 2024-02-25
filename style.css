@@ -93,7 +93,7 @@
   /* Start Home Section */
   .home{
     background: url(img/homesec.jpg);
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -110,7 +110,7 @@
   }
 
   .home .container p{
-    font-size: 4vw;
+    font-size: 3.8vw;
     margin-bottom: 10px;
   }
   .home .container ul{
@@ -141,7 +141,8 @@
     font-size: 8vw;
   }
   .what_do .top_sec h3{
-    font-size: 10vw;
+    font-size: 13vw;
+    line-height: 1;
   }
 
   .what_do .container{
@@ -176,7 +177,7 @@
 
   .what_do .container .text ul li{
     width: 48%;
-    font-size: 4.7vw;
+    font-size: 4.4vw;
     margin-bottom: 25px;
     text-align: center;
     padding: 5px 8px;
@@ -327,7 +328,6 @@
   .form_sec .price h4{
         color: #fff;
         font-size: 10vw;
-        font-family: TAJAWAL-EXTRALIGHT;
   }
   .form_sec .price h2{
     font-size: 39vw;
@@ -359,14 +359,14 @@
 
   .form_sec h5{
     color: #fff;
-    font-size: 6.5vw;
-    font-family: TAJAWAL-EXTRALIGHT;
+    font-size: 5.2vw;
+
   }
   .form_sec h6{
     color: #fff;
-    font-size: 7.5vw;
+    font-size: 6.2vw;
     margin-bottom: 12px;
-    font-family: TAJAWAL-EXTRALIGHT;
+
   }
 
   .form_sec .sm_p{
@@ -392,14 +392,14 @@
     box-shadow: 2px 5px 8px #2a2a2a7d;
   }
   .form_sec form .top_form h3{
-    font-size: 9.5vw;
+    font-size: 8vw;
     font-weight: bolder;
-    font-family: TAJAWAL-EXTRALIGHT;
-    line-height: 1.2;
+    line-height: 1;
   }
   .form_sec form .top_form p{
     font-weight: bold;
     font-size: 2.8vw;
+    margin-top: 3px;
 
   }
 
