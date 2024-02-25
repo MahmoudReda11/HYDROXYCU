@@ -78,7 +78,7 @@
     text-align: center;
   }
   .btn{
-    padding: 7px 40px;
+    padding: 13px 40px 8px;
     font-size: 7.5vw;
     font-weight: bold;
     border-radius: 5px;
@@ -285,12 +285,12 @@
   }
   .small_sec .container img{
     position: absolute;
-    width: 35%;
+    width: 34%;
     left: 2px;
     top: 5px;
   }
   .small_sec .container .text{
-    padding: 20px 0;
+    padding: 20px 0 25px;
   }
   .small_sec .container .text p{
     font-size:4.2vw;
@@ -387,7 +387,7 @@
   }
   .form_sec form .top_form{
     background: #fff;
-    padding: 0px 0 3px;
+    padding: 12px 0 3px;
     margin-bottom: 7px;
     box-shadow: 2px 5px 8px #2a2a2a7d;
   }
