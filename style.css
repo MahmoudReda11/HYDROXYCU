@@ -1,12 +1,44 @@
+/* fonts  */
+
+@font-face {
+  font-family: "TAJAWAL-Bold";
+  src: local("TAJAWAL-Bold"),
+    url("fonts/TAJAWAL-EXTRABOLD.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "TAJAWAL-EXTRALIGHT";
+    src: local("TAJAWAL-EXTRALIGHT"),
+      url("fonts/TAJAWAL-EXTRALIGHT.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'TAJAWAL REGULAR';
+    src: local('TAJAWAL REGULAR'), url('fonts/TAJAWAL-REGULAR.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "TAJAWAL-MEDIUM";
+    src: local("TAJAWAL-MEDIUM"),
+      url("fonts/TAJAWAL-MEDIUM.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-family: "Swissra-Bold"; */
+    font-family: "TAJAWAL-Bold";
     list-style: none;
     text-decoration: none;
-    font-family: sans-serif;
   }
   img {
     width: 100%;
@@ -34,13 +66,20 @@
     background: linear-gradient(to right ,#7A1216,#E51E27);
   }
 
+  #error{
+    position: relative;
+    top: -14px;
+    color: red;
+    font-size: 14px;
+  }
+
 
   .btns{
     text-align: center;
   }
   .btn{
-    padding: 10px 45px;
-    font-size: 8vw;
+    padding: 7px 40px;
+    font-size: 7.5vw;
     font-weight: bold;
     border-radius: 5px;
     transition: 0.4s ease-in-out;
@@ -67,18 +106,20 @@
     position: absolute;
     text-align: center;
     bottom: 0;
-    padding: 10px 10px 30px;
+    padding: 10px 10px 25px;
   }
 
   .home .container p{
-    font-size: 5vw;
+    font-size: 4vw;
     margin-bottom: 10px;
   }
-
+  .home .container ul{
+    padding-bottom: 10px;
+  }
   .home .container ul li{
     color: #fff;
     margin-bottom: 20px;
-    font-size: 8vw;
+    font-size: 7vw;
   }
 
 
@@ -86,7 +127,7 @@
 
 
   .what_do{
-    background: url(img/about_bg.png);
+    background: url(img/bgabout.png);
     background-size: cover;
     background-position: left top;
   }
@@ -101,7 +142,6 @@
   }
   .what_do .top_sec h3{
     font-size: 10vw;
-    font-weight: bolder;
   }
 
   .what_do .container{
@@ -136,8 +176,10 @@
 
   .what_do .container .text ul li{
     width: 48%;
-    font-size: 7vw;
+    font-size: 4.7vw;
     margin-bottom: 25px;
+    text-align: center;
+    padding: 5px 8px;
   }
 
 
@@ -155,13 +197,13 @@
   .results .top_sec{
     background: #fff;
     text-align: center;
-    padding: 8px 0;
+    padding: 7px 0;
   }
   .results .top_sec p{
-    font-size: 12vw;
+    font-size: 11vw;
   }
   .results .top_sec h3{
-    font-size: 6vw;
+    font-size: 5.4vw;
     font-weight: bolder;
   }
 
@@ -204,14 +246,204 @@
     left: 50%;
     transform: translateX(-50%);
     background: #fff;
-    padding: 5px;
+    padding: 5px 8px;
     text-align: center;
     border-radius: 2px;
     box-shadow: 6px 6px 1px #29163674;
+    width: max-content;
   }
   .results .box .text h4{
-    font-size: 20px;
+    font-size: 5vw;
   }
   .results .box .text p{
+    font-size: 3.5vw;
+  }
+
+
+  /* start clint Section */
+
+
+  .clint{
+    padding: 10px 0 10px;
+    text-align: center;
+    background: url(img/bg-clint.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .clint h3{
+    font-size: 8vw;
+    margin-bottom: 20px;
+  }
+  .clint img{
+    width: 90%;
+  }
+
+  /*  start small_sec section */
+
+  .small_sec .container{
+    position: relative;
+  }
+  .small_sec .container img{
+    position: absolute;
+    width: 35%;
+    left: 2px;
+    top: 5px;
+  }
+  .small_sec .container .text{
+    padding: 20px 0;
+  }
+  .small_sec .container .text p{
+    font-size:4.2vw;
+  }
+
+
+  /* start form_sec */ 
+
+
+  .form_sec{
+    text-align: center;
+    padding: 10px 0 10px;
+    background: url(img/formBg.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .form_sec .price{
+    padding: 0 0px 30px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .form_sec .price::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: #fff;
+    border-radius: 30px;
+  }
+
+  .form_sec .price h4{
+        color: #fff;
+        font-size: 10vw;
+        font-family: TAJAWAL-EXTRALIGHT;
+  }
+  .form_sec .price h2{
+    font-size: 39vw;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 0.8;
+  }
+  .form_sec .price h4 span{
+    position: relative;
+  }
+  .form_sec .price h4 span::after,
+  .form_sec .price h4 span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 5px;
+    background: #F5EC1A;
+  }
+  .form_sec .price h4 span::before{
+    transform: rotate(35deg);
+    background: #F5EC1A;
+  }
+  .form_sec .price h4 span::after{
+    transform: rotate(-35deg);
+  }
+
+  .form_sec h5{
+    color: #fff;
+    font-size: 6vw;
+    font-family: TAJAWAL-EXTRALIGHT;
+  }
+  .form_sec h6{
+    color: #fff;
+    font-size: 7vw;
+    margin-bottom: 12px;
+    font-family: TAJAWAL-EXTRALIGHT;
+  }
+
+  .form_sec .sm_p{
+    font-size: 2.2vw;
+    color: #fff;
+    
+  }
+
+  .form_sec form{
+    background: url(img/bg-clint.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 5px 8px #2a2a2a7d;
+  }
+  .form_sec form .top_form{
+    background: #fff;
+    padding: 0px 0 3px;
+    margin-bottom: 7px;
+    box-shadow: 2px 5px 8px #2a2a2a7d;
+  }
+  .form_sec form .top_form h3{
+    font-size: 9.5vw;
+    font-weight: bolder;
+    font-family: TAJAWAL-EXTRALIGHT;
+    line-height: 1.2;
+  }
+  .form_sec form .top_form p{
+    font-weight: bold;
+    font-size: 2.8vw;
+
+  }
+
+  .form_sec form .inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  .form_sec form .inputs input {
+    padding: 10px 10px;
     font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: right;
+  }
+  .form_sec form  button{
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .form_sec .boxs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .form_sec .boxs .box{
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+  .form_sec .boxs .box2{
+    gap: 7px;
+  }
+  .form_sec .boxs .box img{
+    width: 30px;
+  }
+  .form_sec .boxs .box p{
+    color: #fff;
+    font-size: 2.6vw;
+    font-weight: normal;
   }
