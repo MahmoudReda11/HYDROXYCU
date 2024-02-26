@@ -8,29 +8,6 @@
   font-style: normal;
 }
 
-@font-face {
-    font-family: "TAJAWAL-EXTRALIGHT";
-    src: local("TAJAWAL-EXTRALIGHT"),
-      url("fonts/TAJAWAL-EXTRALIGHT.TTF") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'TAJAWAL REGULAR';
-    src: local('TAJAWAL REGULAR'), url('fonts/TAJAWAL-REGULAR.TTF') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: "TAJAWAL-MEDIUM";
-    src: local("TAJAWAL-MEDIUM"),
-      url("fonts/TAJAWAL-MEDIUM.TTF") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
-
-
 
 * {
     padding: 0;
@@ -93,7 +70,7 @@
   /* Start Home Section */
   .home{
     background: url(img/homesec.jpg);
-    height: 90vh;
+    height: 95vh;
     width: 100%;
     background-position: top;
     background-size: cover;
@@ -502,4 +479,180 @@
   }
   body.thanks h4{
     margin-bottom: 30px;
+  }
+
+
+  /* Responsive on big screen */ 
+
+  @media (min-width: 900px){
+    .form_sec {
+      padding-top: 50px;
+    }
+    .form_sec .container{
+      width: 70% ;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .flex{
+      display: flex;
+    }
+    .btn{
+      font-size: 2vw;
+    }
+    .home{
+      width: 30%;
+      height: auto;
+    }
+    .what_do{
+      width: 70%;
+      padding-bottom: 10px;
+    }
+    .home .container{
+      width: 90%;
+      margin: auto;
+    }
+    .home .container p{
+      font-size: 1vw;
+    }
+    .home .container ul li{
+      font-size: 1.3vw;
+    }
+    .what_do .top_sec p{
+      font-size: 3.5vw;
+    }
+    .what_do .top_sec h3{
+      font-size: 5vw;
+      line-height: 1;
+    }
+    .what_do .container .div_img{
+      width: 30%;
+    }
+    .what_do .container{
+      width: 80%;
+      margin: auto;
+    }
+    .what_do .container .text ul li{
+      font-size: 1.1vw;
+      width: 23%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0;
+    }
+    .results .swiper-container{
+      margin-bottom: 30px;
+    }
+    .results .container{
+      padding-bottom: 35px;
+    }
+    .results .top_sec p{
+      font-size: 4vw;
+    }
+    .results .top_sec h3{
+      font-size: 3vw;
+      font-weight: bolder;
+    }
+  
+    .results .box .text h4{
+      font-size: 1.7vw;
+      line-height: 1.1;
+    }
+    .results .box .text p{
+      font-size: 1.3vw;
+    }
+    .clint{
+      padding: 10px 0 10px;
+      text-align: center;
+      background: url(img/bg-clint.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+    .flex2{
+      width: 40%;
+    }
+    .clint h3{
+      font-size: 3vw;
+      margin-bottom: 20px;
+    }
+    .clint img{
+      width: 80%;
+    }
+    .small_sec .container .text p{
+      font-size: 1.6vw;
+    }
+    
+
+    .form_sec{
+      width: 60%;
+      padding-top: 5px;
+    }
+    .form_sec .container{
+      width: 90%;
+      margin: auto;
+    }
+    .form_sec .price h4{
+      color: #fff;
+      font-size: 3vw;
+    }
+    .form_sec .price h2{
+      font-size: 12vw;
+      margin: 5px 0;
+    }
+    .form_sec h5{
+      font-size: 1.5vw;
+    }
+    .form_sec h6{
+      font-size: 1.7vw;
+    }
+  
+    .form_sec .sm_p{
+      font-size: 0.8vw;
+    }
+    .form_sec form .top_form h3{
+      font-size: 3vw;
+    }
+
+    .form_sec form .top_form p{
+      font-size: 1.2vw;
+    }
+
+    .form_sec .boxs .box p{
+      font-size: 1vw;
+    }
+    .form_sec form{
+      width: 80%;
+    }
+    .form_sec .boxs{
+      width: 80%;
+      margin: 30px auto;
+    }
+
+    /*thanks */
+    body.thanks h3{
+      font-size: 2vw;
+    }
+    body.thanks h4{
+      font-size: 1.5vw;
+    }
+    .thanks img{
+      width: 150px;
+    }
+    body.thanks h4{
+      margin-bottom: 50px;
+    }
+    
+  }
+
+  @media (max-width: 900px) {
+    .form_sec{
+      padding-top: 10px;
+    }
+    .form_sec .container{
+      width: 95% !important;
+    }
+    .form_sec .boxs{
+      margin-bottom: 0;
+      margin-top: 10px;
+    }
   }

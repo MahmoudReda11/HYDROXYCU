@@ -54,8 +54,8 @@ var mySwiper = new Swiper('.swiper-container', {
       slidesPerView : 3,
       spaceBetween: 30,
     },
-    500 :{
-      slidesPerView : 1,
+    600 :{
+      slidesPerView : 2,
     },
     0 :{
       slidesPerView : 1,
