@@ -110,8 +110,9 @@
   }
 
   .home .container p{
-    font-size: 3.4vw;
-    margin-bottom: 5px;
+    font-size: 3.5vw;
+    margin-bottom: 8px;
+    padding: 5px 0 5px;
   }
   .home .container ul{
     padding-bottom: 10px;
