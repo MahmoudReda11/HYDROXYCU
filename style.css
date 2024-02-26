@@ -55,7 +55,7 @@
   }
 
   .bg_red{
-    background: linear-gradient(to left ,#7A1216,#E51E27);
+    background: linear-gradient(to left ,#600b0e,#E51E27);
     color: #fff;
     border-radius: 5px;
     padding: 8px 5px 5px;
@@ -78,10 +78,10 @@
     text-align: center;
   }
   .btn{
-    padding: 13px 40px 8px;
+    padding: 13px 50px 8px;
     font-size: 7.5vw;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: 0.4s ease-in-out;
   }
   .btn:hover{
@@ -93,7 +93,7 @@
   /* Start Home Section */
   .home{
     background: url(img/homesec.jpg);
-    height: 93vh;
+    height: 92vh;
     width: 100%;
     background-position: top;
     background-size: cover;
@@ -113,6 +113,7 @@
     font-size: 3.5vw;
     margin-bottom: 8px;
     padding: 8px 0 4px;
+    border-radius: 5px;
   }
   .home .container ul{
     padding-bottom: 10px;
@@ -183,6 +184,7 @@
     margin-bottom: 25px;
     text-align: center;
     padding: 5px 8px;
+    border-radius: 5px;
   }
 
 
